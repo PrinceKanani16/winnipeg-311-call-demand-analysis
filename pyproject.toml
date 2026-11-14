@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "winnipeg-311-demand"
+version = "1.0.0"
+description = "Reproducible descriptive analysis of Winnipeg 311 incoming calls, 2009–2025"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name="Prince Kanani"}]
+dependencies = ["pandas>=2.0,<3", "numpy>=1.24,<3", "matplotlib>=3.9,<4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

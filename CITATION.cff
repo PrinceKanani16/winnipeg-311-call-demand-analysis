@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this project and the City of Winnipeg Open Data source if you reuse the analysis."
+title: "Winnipeg 311 Call Demand Analysis (2009–2025)"
+authors:
+  - family-names: Kanani
+    given-names: Prince
+version: 1.0.0
+date-released: 2026-11-14
